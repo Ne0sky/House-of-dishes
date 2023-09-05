@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className="bg-black text-white py-16">
-      <div className="container mx-auto flex justify-between">
+      <div className="container mx-auto flex flex-col md:flex-row justify-between gap-4">
         <div className='flex flex-col items-center justify-between'>
         <div>HOUSE OF DISHES</div>
         <div className='text-gray-500'>
@@ -12,7 +12,7 @@ const Footer = () => {
         </div>
 
         <div className='flex flex-col justify-between'>
-        <div className='flex gap-24'>
+        <div className='grid grid-cols-2 md:grid-cols-4 place-content-center gap-12 md:gap-16 lg:gap-24 p-8'>
 
         <div className="flex flex-col space-y-6">
           <a href="#" className="">About Us</a>
