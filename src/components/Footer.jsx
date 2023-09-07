@@ -1,11 +1,15 @@
-import React from 'react';
+import logo from '../assets/logo.jpg'
 
 const Footer = () => {
   return (
     <footer className="bg-black text-white py-16">
       <div className="container mx-auto flex flex-col md:flex-row justify-between gap-4">
         <div className='flex flex-col items-center justify-between'>
-        <div>HOUSE OF DISHES</div>
+      
+        <div className=''>
+          <img src={logo} className='h-20' alt="" />
+        </div>
+        <div className="text-2xl font-bold">HOUSE OF DISHES</div>
         <div className='text-gray-500'>
             <p>Priacy Policy | Cookie Policy | Terms</p>
         </div>

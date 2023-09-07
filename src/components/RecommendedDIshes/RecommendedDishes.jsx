@@ -1,4 +1,4 @@
-import React from 'react'
+
 import RecommendedData from '../../Data/RecommendedData'
 import Card2 from '../Card2'
 

@@ -2,15 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 .swiper-button-next,
 .swiper-button-prev {
   width: 35px;
   height: 35px;
   background-color: #ffffff; 
+ border: #fff solid 1px;
   color: #000000; 
   border-radius: 50%; 
   font-size: 20px; 
-  
+  box-shadow: rgb(0, 0, 0) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .swiper-container {
@@ -52,3 +55,11 @@
   }
 
  
+body{
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+}
+
+.optionlistContainer{
+    width: fit-content;
+}

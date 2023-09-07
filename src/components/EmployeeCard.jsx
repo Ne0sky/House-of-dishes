@@ -16,7 +16,7 @@ const EmployeeCard = ({name, role, task, feedback, timeline}) => {
             <p className=''>{role}</p>
             </div>
 
-            <div className=' p-8 rounded-lg bg-zinc-900'>
+            <div className=' p-4 md:p-8 rounded-lg bg-zinc-900'>
                 <p className='text-3xl py-4 font-semibold  text-indigo-500'>Responsibilities</p>
                 <p className=''>{task}</p>
             </div>
