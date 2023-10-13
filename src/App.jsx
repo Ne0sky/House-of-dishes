@@ -2,12 +2,13 @@
 import React from 'react'
 import Home from './pages/Home'
 import LuxuryDishes from './pages/LuxuryDishes'
+import Dish from './pages/Dish/Dish'
 const App = () => {
   return (
     <>
-      <Home/>
-      <LuxuryDishes/>
-
+      {/* <Home/>
+      <LuxuryDishes/> */}
+      <Dish/>
     </>
   )
 }
